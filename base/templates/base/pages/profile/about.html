@@ -1,0 +1,33 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+    <main class="page-main">
+        <div class="uk-grid" data-uk-grid>
+            <div class="uk-width-2-3@l">
+                <div class="widjet --profile">
+                    <div class="widjet__head">
+                        <h3 class="uk-text-lead">About Me</h3>
+                    </div>
+                    <div class="widjet__body">
+                        <div class="widjet-game">
+                            <div class="widjet-game__media">
+                                <a href="#"
+                                ><img src="{% static 'images/foto 4x6.png' %}" alt="image"
+                                /></a>
+                            </div>
+                            <div class="widjet-game__info">
+                                <a class="widjet-game__title" href="#">
+                                    Akbar Bintang Wicaksono</a
+                                >
+                                <div class="widjet-game__record">2011102441126</div>
+                                <div class="widjet-game__record">Teknik Informatika</div>
+                                <div class="widjet-game__last-played">
+                                    Universitas Muhammadiyah Kalimantan Timur
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+{% endblock content %}
